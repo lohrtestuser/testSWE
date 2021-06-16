@@ -1,5 +1,5 @@
 public class Webshop {
-
+	//das ist die Klasse, die die anderen Klassen verwendet
 	private String name;
 	private Onlinezahlung zahlungsart;
 	
@@ -8,7 +8,7 @@ public class Webshop {
 		this.zahlungsart = oz;
 	}
 	
-	//damit man Zahlungsart auch noch nach Erzeugung der Webshop-Instanz ändern kann
+	//damit man Zahlungsart auch noch nach Erzeugung der Webshop-Instanz Ã¤ndern kann
 	public void setZahlungsart(Onlinezahlung zahlungsart) {
 		this.zahlungsart = zahlungsart;
 	}
