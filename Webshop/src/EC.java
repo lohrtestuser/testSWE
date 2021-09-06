@@ -8,7 +8,11 @@ public class EC implements Onlinezahlung {
 	@Override
 	public void erzeugeZahlung() {
 		System.out.println("Zahlungsmethode EC.");
+
+		System.out.println("Hallo mein Name ist Dani");
+
 		System.out.println("Hallo, mein Name ist Rolf Zanchettin");
+
 	}
 
 }
